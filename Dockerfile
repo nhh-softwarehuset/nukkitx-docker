@@ -39,4 +39,4 @@ USER minecraft:minecraft
 WORKDIR /data
 
 ENTRYPOINT ["java"]
-CMD ["-jar","/app/nukkit-1.0-SNAPSHOT.jar \"eng\""]
+CMD ["-jar","/app/nukkit-1.0-SNAPSHOT.jar,\"eng\""]
