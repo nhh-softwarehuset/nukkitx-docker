@@ -8,7 +8,7 @@ RUN apt update && apt install -y \
 
 WORKDIR /app
 #Build from github source
-RUN wget https://ci.nukkitx.com/job/NukkitX/job/master/lastSuccessfulBuild/artifact/target/nukkit-1.0-SNAPSHOT.jar
+RUN wget https://ci.nukkitx.com/job/NukkitX/job/Nukkit/job/master/lastSuccessfulBuild/artifact/target/nukkit-1.0-SNAPSHOT.jar
 
 #Runtime image
 FROM base AS run
